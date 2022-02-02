@@ -1,0 +1,396 @@
+
+    body {
+        box-sizing: border-box;
+        font-family: 'Sen', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .names {
+        
+        width: 50%;
+        float: left;
+        height:8rem;
+        overflow: auto;
+        
+    }
+
+    .payment {
+        float: right;
+        margin-right: 2rem;
+        margin-bottom: 10rem;
+        border: none;
+        border-radius: 20px;
+        background-color: #FF6000;
+        font-size: large;
+        padding: 10px;
+        box-shadow: 4px 4px 7px #FF6000;
+
+        
+    }
+
+    h1 {
+        color:#FF6000 ;
+        
+        width: 14rem;
+        
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .bi {
+        color: #FF6000 ;
+        float: right;
+        margin-right: 5rem;
+        height: 2rem;
+        width: 2rem;
+        margin-top: -2rem;
+    }
+
+    .itemdiv {
+        
+        width: 40%;
+        float: left;
+    }
+
+    .headdiv {
+        
+        width: 40%;
+        float: right;
+        
+    }
+
+    .payment:hover {
+        box-shadow: 2px 2px 2px #FF6000;
+    }
+
+    .payment a {
+        text-decoration: none;
+        color: white;
+    }
+
+
+    .h1 {
+        width: 3rem;
+        border: none;
+    }
+
+    .itemsprices li {
+        margin-left: 1rem;
+        
+        
+    }
+
+    
+
+    .prices {
+        
+        
+        float: right;
+        height: 8rem;
+        overflow: auto;
+        width: 50%;
+        
+    }
+    /*This is the announcement part*/
+
+    .fixed {
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+    }
+    .announcement {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1em;
+        background-color: black;
+        color: white;
+        font-size: 1.1em;
+    }
+    .announcement-left {
+        padding: 0.5em 1em;
+        background-color: #DB4E56;
+        border-radius: 15px;
+    }
+    .announcement-right-desktop {
+        padding: 0.5em 1em;
+    }
+    
+    .basket{
+        width: 80%;
+        height: 20rem;
+        position: relative;
+        margin: auto;
+        border: 2px #DB4E56 solid;
+        border-radius:30px;
+        
+    }
+    .basket h1{
+        text-align: center;
+    }
+
+    /*This is the header part*/
+
+    .header {
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.2em;
+    }
+    .header-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        padding: 0.3em 0 0.3em 10%;
+        cursor: pointer;
+    }
+    .header-logo-right {
+        padding: 0 0.65em;
+    }
+    .header-navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        padding: 0.3em 10% 0.3em 0;
+        cursor: pointer;
+    }
+    .header-navbar-item {
+        padding: 0.5em 1em;
+        border-radius: 5px;
+        transition: 0.3s;
+        margin: 0 0.5em;
+        text-decoration: none;
+        color: #FF6000;
+    }
+    .header-navbar-item:hover {
+        background-color: black;
+
+    }
+
+    .header-navbar-hamburger {
+        display: none;
+    }
+    .cart {
+        padding: 0.5em 0.75em;
+        background-color: white;
+        border-radius: 5px;
+        margin-left: 0.8em;
+    }
+    /*This is the serving section part*/
+
+    .section-serving {
+        padding-top: 6em;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-image: url(../Images/Man-mountain.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .section-serving-text {
+        padding: 10%;
+        width: 40%;
+        color: white;
+    }
+    .section-serving-heading {
+        font-size: 62px;
+        font-weight: 600;
+        padding: 0.4em 0;
+    }
+    .section-serving-body {
+        font-size: 18px;
+        line-height: 1.6em;
+        width: 80%;
+        padding-bottom: 1.5em;
+    }
+    .section-serving-button {
+        font-size: 16px;
+        margin-top: 1.5em;
+        border: 2px solid white;
+        border-radius: 5px;
+        text-align: center;
+        width: 30%;
+        padding: 0.5em 1em;
+        cursor: pointer;
+        transition: 0.3s;    
+        text-decoration: none;
+        color: white;
+    }
+    .section-serving-button:hover {
+        background-color: white;
+        color: black;
+    }
+
+
+    /*This is the products section*/
+
+    .section-products {
+        width: 80%;
+        height: 100%;
+        padding: 5% 10%;
+    }
+    .section-products-subheading {
+        font-size: 16px;
+    }
+    .section-products-heading {
+        font-size: 40px;
+        font-weight: 700;
+        padding-bottom: 1em;
+    }
+    .section-products-buy {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .section-products-buy-item {
+        width: 30%;
+    }
+    .section-products-buy-item-img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+    .section-products-buy-item-3lines {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-products-buy-item-name {
+        font-size: 20px;
+        line-height: 1.5;
+        margin-top: 0.5em;
+        color: black;
+    }
+    .no-underline {
+        text-decoration: none;
+    }
+    .section-products-buy-item-price {
+        color: black;
+    }
+    .discount {
+        color: #DB4E56;
+        text-decoration: line-through;
+        font-weight: 700;
+    }
+    .section-products-buy-item-details {
+        background-color: #DB4E56;
+        color: white;
+        font-size: 16px;
+        width: 7em;
+        text-align: center;
+        line-height: 2;
+        margin-top: 0.5em;
+        border-radius: 5px;
+        transition: 0.3s;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .section-products-buy-item-details:hover {
+        background-color: black;
+    }
+
+    /*This is the viewproducts section*/
+
+    .section-viewproducts {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1em 0;
+    }
+    .section-viewproducts-item {
+        width: 12em;
+        color: white;
+        background-color: black;
+        font-size: 16px;
+        font-weight: 700;
+        border-radius: 5px;
+        text-align: center;
+        line-height: 2.5;
+        transition: 0.3s;
+        text-decoration: none;
+    }
+    .section-viewproducts-item:hover {
+        background-color: #DB4E56;
+    }
+
+    /*This is the shop local section*/
+
+    .section-shoplocal {
+        padding: 5% 10%;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-shoplocal-left {
+        justify-self: flex-start;
+        width: 30%;
+        height: auto;
+        position: absolute;
+        padding-top: 3%;
+    }
+    .section-shoplocal-left-img {
+        border-radius: 5px;
+    }
+    .section-shoplocal-right {
+        display: flex;
+        justify-content: flex-end;
+        border: 1px solid black;
+        width: 80%;
+        height: 35em;
+        align-self: flex-end;
+        background-color: black;
+        border-radius: 7px;
+    }
+    .section-shoplocal-right-text {
+        color: white;
+        padding: 5% 18% 5% 30%;
+    }
+    .section-shoplocal-right-text-heading {
+        font-size: 45px;
+        font-weight: 700;
+    }
+    .section-shoplocal-right-text-company {
+        line-height: 1.5;
+        font-weight: 700;
+    }
+
+    /*This is the footer section*/
+
+    .section-footer {
+        background-color: black;
+        color: white;
+        padding: 1.5% 10% 1.5% 10%;
+    }
+    .section-footer-line1 {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 1em;
+    }
+    .section-footer-media {
+        display: flex;
+        align-items: center;
+    }
+    .fab {
+        padding: 0 0.25em;
+    }
+    .section-footer-logo {
+        display: flex;
+        align-items: center;
+    }
+    .section-footer-logo-text {
+        font-size: 1.25em;
+    }
+    .section-footer-line2 {
+        text-align: center;
+    }
+    #remove-mobile1, #remove-mobile2, #remove-mobile3, #remove-mobile-woman, .mobile-nav {
+        display: none;
+    }
+
+
